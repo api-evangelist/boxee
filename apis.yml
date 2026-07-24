@@ -1,21 +1,59 @@
 aid: boxee
 name: Boxee
-description: 'Boxee is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Boxee, Inc. was a New York and Tel Aviv based consumer media company founded in 2007 by
+  Avner Ronen, Tom Sella, Idan Cohen, Gidon Coussin and Roy Vulcan. Its cross-platform media-center
+  software began as a fork of the open-source XBMC project and bridged local media libraries with
+  internet streaming sources. Boxee shipped a Python-based application API in April 2009 that let third
+  parties build Boxee apps in Python with XML-defined interfaces, distributed through the Boxee app
+  directory and documented at developer.boxee.tv. Hardware followed with the D-Link Boxee Box (2010)
+  and Boxee TV with a cloud DVR service (2012). Backed by Union Square Ventures and Spark Capital,
+  Boxee was acquired by Samsung Electronics in July 2013; the cloud DVR was shut down on 10 July 2013
+  and Samsung wound down the Boxee team in 2015. The company is defunct and no API surface, developer
+  portal, or documentation remains reachable.'
 url: https://raw.githubusercontent.com/api-evangelist/boxee/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/644333?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - union-square-ventures
+- spark-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Acquired by Samsung Electronics in July 2013 (~$30M); cloud-DVR service discontinued
+  10 July 2013 and the Boxee project shut down by Samsung in 2015. Re-probed 2026-07-20: boxee.com,
+  www.boxee.com, boxee.tv, api.boxee.tv, developer.boxee.tv and app.boxee.tv all return no A record;
+  HTTP/HTTPS to boxee.com, www.boxee.com and boxee.tv all fail to connect (curl 000). Both domains are
+  still registered but parked with no hosting - boxee.com at GoDaddy (expires 2027-03-19), boxee.tv via
+  the Njalla privacy registrar (expires 2028-01-24). The github.com/Boxee organization ("Boxee, Inc.",
+  created 2011-03-01) is still live but publishes zero public repositories. No live API surface,
+  specs, hosts, or /.well-known documents exist to enrich or probe; every enrichment artifact type was
+  correctly skipped rather than fabricated.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Media Center
+- Streaming
+- Set-Top Box
+- Video
+- Entertainment
+- Cord Cutting
+- Cloud DVR
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +62,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  name: Boxee (historical - does not resolve)
   url: https://boxee.com
+- type: GitHubOrganization
+  name: Boxee, Inc. on GitHub
+  url: https://github.com/Boxee
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
