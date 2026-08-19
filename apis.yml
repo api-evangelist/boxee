@@ -40,7 +40,7 @@ x-status-note: 'Acquired by Samsung Electronics in July 2013 (~$30M); cloud-DVR 
   created 2011-03-01) is still live but publishes zero public repositories. No live API surface,
   specs, hosts, or /.well-known documents exist to enrich or probe; every enrichment artifact type was
   correctly skipped rather than fabricated.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
